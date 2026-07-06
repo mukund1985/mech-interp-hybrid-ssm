@@ -23,23 +23,23 @@ Functional specialization emerges from residual stream context, not weight diffe
 ## Repository Structure
 
 ```
-paper2-mech-interp-hybrid-ssm/
+mech-interp-hybrid-ssm/
 ├── experiments/
-│   ├── exp1_ssm_induction_score.ipynb   # SSM Induction Score (SSMI) across all 38 layers
+│   ├── exp1_ssm_induction_score.ipynb    # SSM Induction Score (SSMI) across all 38 layers
 │   ├── exp2_shared_attention_heads.ipynb # Copy score analysis for 6 hybrid layers
-│   └── exp3_logit_lens.ipynb            # Logit-lens factual recall experiment
+│   └── exp3_logit_lens.ipynb             # Logit-lens factual recall experiment
 ├── results/
-│   ├── ssmi_zamba2_results.json          # Exp 1 output: SSMI per layer
-│   ├── copy_scores_zamba2_results.json   # Exp 2 output: copy scores per head
-│   └── logit_lens_factual_zamba2_results.json  # Exp 3 output: factual recall logprobs
+│   ├── ssmi_zamba2_results.json                  # Exp 1 output: SSMI per layer
+│   ├── copy_scores_zamba2_results.json           # Exp 2 output: copy scores per head
+│   └── logit_lens_factual_zamba2_results.json    # Exp 3 output: factual recall logprobs
 ├── figures/
-│   ├── ssmi_zamba2_1.2b.png/pdf         # Figure 1
+│   ├── ssmi_zamba2_1.2b.png/pdf          # Figure 1
 │   ├── copy_scores_zamba2.png/pdf        # Figure 2
 │   └── logit_lens_factual_zamba2.png/pdf # Figure 3
-├── latex/
-│   ├── paper.tex                        # LaTeX source
-│   ├── references.bib                   # Bibliography (12 references)
-│   └── paper.pdf                        # Compiled PDF
+└── latex/
+    ├── paper.tex                         # LaTeX source
+    ├── references.bib                    # Bibliography (12 references)
+    └── paper.pdf                         # Compiled PDF
 ```
 
 ---
@@ -103,6 +103,6 @@ Paper submitted — arXiv ID pending (will update once assigned).
   title={Mechanistic Interpretability of Hybrid SSM-Attention Models: 
          Induction, Factual Recall, and Weight-Tied Attention in Zamba2-1.2B},
   author={Pandey, Mukund},
-  year={2025}
+  year={2026}
 }
 ```

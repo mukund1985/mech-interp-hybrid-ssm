@@ -9,3 +9,4 @@ latex/*.blg
 latex/*.out
 latex/*.toc
 latex/*.synctex.gz
+arxiv*.zip
